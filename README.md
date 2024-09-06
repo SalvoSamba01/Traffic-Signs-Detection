@@ -1,6 +1,6 @@
 # Traffic-Signs-Detection with YOLOv10
 
-<img src="[http://url.to/image.png](https://github.com/user-attachments/assets/c75109bb-dca1-4af6-983c-45ccd2e484f5)" height="48" width="48" >
+![thumbnail](https://github.com/user-attachments/assets/6cb5f9e3-d97f-4f7d-af86-9e9b2007323a)
 
 
 ### Overview
