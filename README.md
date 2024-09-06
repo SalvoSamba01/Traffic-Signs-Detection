@@ -22,6 +22,7 @@ The project utilizes YOLOv10, a state-of-the-art object detection model, to iden
 To run this project, you need to install the following Python packages. You can install them using `pip`:
 ```bash
 pip install -r requirements.txt
+```
 
 ## Training Demo (.ipynb Notebook)
 
@@ -58,7 +59,7 @@ To use the Traffic Sign Detection Application, you need to execute the following
 
 ```bash
 python signDetectionApp.py
-
+```
 ### **Requirements**
 
 Make sure you have the necessary packages installed. You can do this by using the `requirements.txt` file included in the project.
