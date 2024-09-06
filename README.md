@@ -67,7 +67,7 @@ Make sure you have the necessary packages installed. You can do this by using th
 
 ## Example
 
-![App usage example](https://github.com/SalvoSamba01/Traffic-Signs-Detection/assets/appUsage.gif)
+![App usage example](https://github.com/SalvoSamba01/Traffic-Signs-Detection/blob/main/assets/appUsage.gif)
 
 ## Contributing
 
