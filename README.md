@@ -1,5 +1,7 @@
 # Traffic-Signs-Detection with YOLOv10
 
+!(thumbnail)[https://github.com/SalvoSamba01/Traffic-Signs-Detection/blob/main/assets/thumbnail.jpg]
+
 ### Overview
 
 This project, developed for the Machine Learning course at the University of Catania (Academic Year 2023-2024), focuses on traffic sign detection using YOLOv10. The aim is to evaluate and compare the performance of three different YOLOv10 models: YOLOv10n, YOLOv10s, and YOLOv10m.
