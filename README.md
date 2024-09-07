@@ -63,6 +63,11 @@ The Traffic Sign Detection app is a graphical user interface (GUI) built with Tk
 - **Predict Traffic Signs**: The application uses YOLOv10 models to make predictions on the loaded images and display the results.
 - **Visualize Predictions**: Predictions are shown alongside the original image and the ground truth annotations. The results include bounding boxes and class labels.
 
+## Example
+
+https://github.com/user-attachments/assets/601941fc-375d-4dfc-8ef4-d779e49e66fb
+
+
 ### **Running the Application**
 
 To use the Traffic Sign Detection Application, you need to execute the following command:
@@ -70,14 +75,7 @@ To use the Traffic Sign Detection Application, you need to execute the following
 ```bash
 python trafficSignsDetectionApp.py
 ```
-### **Requirements**
 
-Make sure you have the necessary packages installed. You can do this by using the `requirements.txt` file included in the project.
-
-
-## Example
-
-https://github.com/user-attachments/assets/601941fc-375d-4dfc-8ef4-d779e49e66fb
 
 ## Contributing
 
