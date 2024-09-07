@@ -1,0 +1,52 @@
+train: ./TrafficSigns/images/train
+val: ./TrafficSigns/images/val
+test: ./TrafficSigns/images/test
+
+nc: 39
+names: [
+'animals',
+'bend',
+'bend-left', 
+'bend-right', 
+'construction', 
+'cycles-crossing', 
+'danger', 
+'give-way', 
+'go-left', 
+'go-left-or-straight', 
+'go-right', 
+'go-right-or-straight', 
+'go-straight', 
+'keep-left', 
+'keep-right', 
+'no-entry', 
+'no-overtaking', 
+'no-overtaking-trucks-', 
+'no-traffic-both-ways', 
+'no-trucks', 
+'pedestrian-crossing', 
+'priority-at-next-intersection', 
+'priority-road', 
+'restriction-ends', 
+'restriction-ends-80', 
+'road-narrows', 
+'roundabout', 
+'school-crossing', 
+'slippery-road', 
+'speed-limit-100', 
+'speed-limit-20', 
+'speed-limit-30', 
+'speed-limit-50', 
+'speed-limit-60', 
+'speed-limit-70', 
+'speed-limit-80', 
+'stop', 
+'traffic-signal', 
+'uneven-road']
+
+roboflow:
+  workspace: uniworkspace-otguk
+  project: yolov10-traffic-sign-detection
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uniworkspace-otguk/yolov10-traffic-sign-detection/dataset/8
