@@ -27,6 +27,13 @@ To run this project, you need to install the following Python packages. You can 
 pip install -r requirements.txt
 ```
 
+## Utility
+The repository contains some useful scripts in the `utility` folder for preprocessing the images in the dataset to be used:
+1. `ppm2jpg.py`: convert images from .ppm to .jpg format
+2. `resize.py`: resize images in a specific folder to fixed height and width
+3. `printGroundTruthAnnotation.py`: generate ground thruth annotations from a folder of images and bounding box labels, annotated in YOLO format in .txt files 
+
+
 ## Training Demo (.ipynb Notebook)
 
 The `Notebook.ipynb` file provides a practical demonstration of training and validating the YOLOv10 models used in the project. The notebook guides through the following phases:
@@ -52,7 +59,7 @@ The `Notebook.ipynb` file provides a practical demonstration of training and val
 
 The Traffic Sign Detection app is a graphical user interface (GUI) built with Tkinter, designed for traffic sign detection using YOLOv10. This application allows you to:
 
-- **Load and Display Images**: You can load images of traffic signs, which will be displayed along with their ground truth annotations.
+- **Load and Display Images**: You can load images of traffic signs, which will be displayed along with their ground truth annotations (please use the utility script "*printGroundTruthAnnotation.py* in order to generate ground truth images for your dataset". The ground-truth images for GTSDB and TrafficSign are already in the "*datasets*" folder).
 - **Predict Traffic Signs**: The application uses YOLOv10 models to make predictions on the loaded images and display the results.
 - **Visualize Predictions**: Predictions are shown alongside the original image and the ground truth annotations. The results include bounding boxes and class labels.
 
