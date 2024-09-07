@@ -61,7 +61,7 @@ The Traffic Sign Detection app is a graphical user interface (GUI) built with Tk
 To use the Traffic Sign Detection Application, you need to execute the following command:
 
 ```bash
-python signDetectionApp.py
+python trafficSignsDetectionApp.py
 ```
 ### **Requirements**
 
