@@ -26,7 +26,7 @@ def load_ground_truth():
                 gt_img_tk = ImageTk.PhotoImage(gt_img_pil)
                 img_panel_middle.config(image=gt_img_tk)
                 img_panel_middle.image = gt_img_tk
-                title_middle.grid()  # Mostra il titolo "Ground-truth boxes"
+                title_middle.grid()
             else:
                 messagebox.showerror("Error", "Ground truth image not found!")
         except Exception as e:
@@ -44,7 +44,7 @@ def load_image():
         img_tk = ImageTk.PhotoImage(img_pil)
         img_panel_left.config(image=img_tk)
         img_panel_left.image = img_tk
-        title_left.grid()  # Mostra il titolo "Original image"
+        title_left.grid() 
         load_ground_truth()
 
 def remove_images():
@@ -101,7 +101,7 @@ def predict():
                 class_id = int(box.cls[0].item())
                 class_name = results[0].names[class_id]
                 boxes.append((x1, y1, x2, y2, confidence, class_name))
-                class_count[class_name] += 1  # Aggiungi al contatore della classe
+                class_count[class_name] += 1
 
         boxes = sorted(boxes, key=lambda x: x[4], reverse=True)
 
@@ -185,7 +185,7 @@ img_panel_right = tk.Label(frame)
 img_panel_right.grid(row=1, column=2, padx=10, pady=10)
 
 prediction_listbox = tk.Listbox(root, height=15, width=40, font=("Courier", 10), justify="center")
-prediction_listbox.pack_forget()  # Nascondi inizialmente
+prediction_listbox.pack_forget()
 
 predict_btn = tk.Button(root, text="Predict", command=predict)
 predict_btn.pack(pady=10)
