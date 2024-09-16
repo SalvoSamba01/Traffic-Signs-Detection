@@ -65,7 +65,10 @@ The Traffic Sign Detection app is a graphical user interface (GUI) built with Tk
 
 ## Example
 
-https://github.com/user-attachments/assets/601941fc-375d-4dfc-8ef4-d779e49e66fb
+
+
+https://github.com/user-attachments/assets/a89e9e9f-f81d-4682-937e-16477ed89c53
+
 
 
 ### **Running the Application**
