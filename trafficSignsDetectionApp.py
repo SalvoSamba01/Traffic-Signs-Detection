@@ -4,7 +4,7 @@ from tkinter import ttk
 import cv2
 from PIL import Image, ImageTk
 from collections import Counter
-from ultralytics import YOLOv10
+from ultralytics import YOLO
 
 MAX_IMAGE_SIZE = (400, 400)
 
@@ -70,11 +70,11 @@ def load_model(event):
     model_name = selected_model.get()
     try:
         if model_name == "YOLOv10n":
-            model = YOLOv10("./YOLOv10nTRAINED/weights/best.pt")
+            model = YOLO("./YOLOv10nTRAINED/weights/best.pt")
         elif model_name == "YOLOv10s":
-            model = YOLOv10("./YOLOv10sTRAINED/weights/best.pt")
+            model = YOLO("./YOLOv10sTRAINED/weights/best.pt")
         elif model_name == "YOLOv10m":
-            model = YOLOv10("./YOLOv10mTRAINED/weights/best.pt")
+            model = YOLO("./YOLOv10mTRAINED/weights/best.pt")
         messagebox.showinfo("Model loaded", f"{model_name} model loaded!")
     except Exception as e:
         messagebox.showerror("Error", f"Error in model loading: {str(e)}")
